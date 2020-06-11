@@ -4,3 +4,5 @@ function computerPlay() {
     num = Math.floor(Math.random() * (arr.length + 1));
     return arr[num];
 }
+var playerSelection = prompt("What is your choice?");
+var computerSelection = computerPlay();
